@@ -1,0 +1,9 @@
+{
+  "name": "vue-classy",
+  "version": "1.0.0",
+  "description": "Toggle classes from props in vue",
+  "main": "index.js",
+  "author": "Jon Stolte <jon.stolte@designdierepeat.com>",
+  "license": "MIT",
+  "private": false
+}
