@@ -1,5 +1,5 @@
 // pull in flattenDeep from lodash, which will recursively flattens array
-const flattenDeep = require('lodash.flattendeep');
+const _ = require('lodash');
 
 const appendIfNotEmpty = (value, arr) => {
   return value && value.length ? [...arr, value] : arr;
@@ -51,7 +51,7 @@ const $classNames = (defaultClassName = null) => {
   }
 
   return this.$_classNames.length
-    ? flattenDeep(this.$_classNames)
+    ? _.flattenDeep(this.$_classNames)
     : defaultClassName;
 };
 
