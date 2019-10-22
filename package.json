@@ -1,6 +1,6 @@
 {
   "name": "vue-classy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Toggle classes from props in vue",
   "main": "index.js",
   "repository": "https://github.com/Jon-Stolte/vue-classy.git",
