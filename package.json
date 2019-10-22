@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Toggle classes from props in vue",
   "main": "index.js",
+  "repository": "https://github.com/Jon-Stolte/vue-classy.git",
   "author": "Jon Stolte <jon.stolte@designdierepeat.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
